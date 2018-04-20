@@ -26,11 +26,11 @@ bool coord_2d_eq(const coord_2d_t* a, const coord_2d_t* b);
 void coord_2d_midpoint(coord_2d_t* mid, const coord_2d_t* a, const coord_2d_t* b);
 
 
-double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c)
+/*double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c)
 {
     double m = coord_2d_t* a(x) * (coord_2d_t* b(y) - coord_2d_t* c(y));
     double n = coord_2d_t* b(x) * (coord_2d_t* c(y) - coord_2d_t* a(y));
     double o = coord_2d_t* c(x) * (coord_2d_t* a(y) - coord_2d_t* b(y));
     
     return (m + n + o) / 2;
-};
+};*/
